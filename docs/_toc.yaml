@@ -1,0 +1,10 @@
+toc:
+- heading: "Quantum Chess"
+- title: "Overview"
+  path: /docs/overview.md
+- title: "Getting Started"
+  path: /docs/getting_started.md
+- title: "Field notes on quantum game design"
+  path: /docs/quantum_game_design.md
+- title: "Start Here for Physicists"
+  path: /docs/physics_terms.md
