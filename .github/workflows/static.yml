@@ -22,8 +22,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy:
+  build:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -38,6 +37,7 @@ jobs:
         with:
           # Upload entire repository
           path: './output/'
+  deploy:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
