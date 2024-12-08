@@ -31,7 +31,7 @@ jobs:
       - name: Install YUI Compressor
         run: |
           sudo apt update
-          sudo apt install yuicompressor
+          sudo apt install yui-compressor
       - name: Checkout
         uses: actions/checkout@v4
       - name: Pelican Build
