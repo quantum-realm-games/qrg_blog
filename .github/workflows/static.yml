@@ -28,6 +28,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Install YUI Compressor
+        run: |
+          sudo apt update
+          sudo apt install yuicompressor
       - name: Checkout
         uses: actions/checkout@v4
       - name: Pelican Build
