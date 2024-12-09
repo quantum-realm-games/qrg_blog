@@ -30,7 +30,8 @@ Chess is big and hard, so let's start with a simpler game. [Tic Tac Toe](https:/
 
 So, you want to win a Tic Tac Toe game. Imagine that before you sit to play the game, you carry a list of all possible Tic Tac Toe "positions". A position is any configuration of Xs and Os on the board. You're only interested in "legal" positions, which means that you only want configurations of Xs and Os that you can create by playing the game. Your list should be organized as a tree, where any position points to all legal moves that a player can make from that position. After you remove reflections and rotations, you're left with 765 positions.
 
-<blockquote>image-placeholder<footer>me</footer></blockquote>
+image-placeholder
+
 <label for="mn-graph" class="margin-toggle">&#8853;</label>
 <input type="checkbox" id="mn-graph" class="margin-toggle"/>
 <span class="marginnote">
