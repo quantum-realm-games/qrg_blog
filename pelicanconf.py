@@ -7,8 +7,8 @@ SITENAME = u'Quantum Realm Games Developer Blog'
 SITETITLE = u'qrg.dev | Quantum Realm Games Dev Blog'
 # If using GitHub Pages, set the SITEURL parameter to be the repo name.
 # Otherwise, leave as null.
-# SITEURL = ''
-SITEURL = '/docs_test'
+SITEURL = ''
+#SITEURL = '/docs_test'
 
 PATH = 'content'
 
