@@ -8,7 +8,7 @@ SITETITLE = u'qrg.dev | Quantum Realm Games Dev Blog'
 # If using GitHub Pages, set the SITEURL parameter to be the repo name.
 # Otherwise, leave as null.
 # SITEURL = ''
-SITEURL = '/docs_test/'
+SITEURL = '/docs_test'
 
 PATH = 'content'
 
@@ -52,7 +52,7 @@ MARKDOWN = {
 }
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['eric_extensions', 'neighbors', 'sitemap', 'yuicompressor']
+PLUGINS = ['eric_extensions', 'neighbors', 'sitemap'] #, 'yuicompressor']
 
 THEME = 'theme'
 LOGO = 'images/qrg_logo_small.png'
