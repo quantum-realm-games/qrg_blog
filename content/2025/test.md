@@ -9,7 +9,7 @@ Status: Published
 
 ## Size matters
 
-Our first AI was a small comedy. Let's give chess AI its due: this is a serious and deep area of computer science. If this is your first time thinking about chess AI, then strap in.
+Our first AI was a small comedy. 
 
 Mathematicians have [a lively debate](https://en.wikipedia.org/wiki/Solving_chess#The_complexity_of_chess) about the total number of possible, legal chess positions. A position is any configuration of chess pieces on the board. A legal position is one that can be reached from the starting position by performing legal moves. Estimates come in somewhere between 2x10^20 and 10^50.
 
